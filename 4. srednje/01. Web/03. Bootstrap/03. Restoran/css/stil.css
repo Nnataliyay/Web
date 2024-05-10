@@ -1,0 +1,367 @@
+/* Pocetni deo */
+#hero {
+    width: 100vw;
+    height: 100vh;
+    text-shadow: black 3pt 4pt 5pt;
+    position: relative;
+
+}
+
+#hero-background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/krofna_back.jpeg);
+    background-size: cover;
+    filter: blur(5px); 
+    transform: scale(1.3);
+    background-repeat: no-repeat;
+    
+}
+
+#hero .container{
+    padding-top: 40vh;
+    left: 40pt;
+    position: absolute;
+}
+
+#hero h1{
+    margin: 0;
+    font-size: 40pt;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #7e3f8a;
+}
+#hero h1 span {
+    font-size: 50pt;
+    font-weight: 800;
+    font-family: Verdana, sans-serif;
+    color: #f44336;
+    text-decoration: underline;
+}
+
+#hero h2 {
+    font-size: 25pt;
+    color: #7e3f8a;
+
+}
+
+
+
+
+/* O Nama */
+.o-nama{
+    background: url("../img/restoran.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 0;
+    position: relative;
+    color: white;
+
+}
+
+.o-nama .o-nama-slika{
+    position: relative;
+}
+
+.o-nama .o-nama-slika img{
+    max-width: 100%;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+
+.o-nama .content h3{
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.o-nama .content ul{
+    list-style: none;
+    padding: 0;
+}
+
+.o-nama .content ul li{
+    padding-bottom: 10px;
+}
+.o-nama .content ul i{
+    color: #c79e58;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+
+/* Zasto nas */
+.zasto-nas{
+    padding: 80px 0;
+    background-color: #c34a51;
+}
+
+.zasto-nas .box{
+    padding: 50px 30px;
+    background-color: rgb(32, 17, 1);
+    box-shadow: 0px 3px 20px rgb(0, 0, 0);
+    transition: all ease-in 0.3s;
+}
+
+.zasto-nas .box span{
+    font-size: 30px;
+    font-weight: 700;
+    color: #c79e58;
+}
+
+.zasto-nas .box h4{
+    font-size: 26px;
+    font-weight: 600;
+    margin: 20px 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.zasto-nas .box p{
+    color: #c0c0c0;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+}
+
+.zasto-nas .box:hover {
+    background-color: #c09957;
+    padding: 30px 30px 70px 35px;
+    box-shadow: 5px 15px 30px rgb(226, 179, 77);
+}
+
+.zasto-nas .box:hover span{
+    color: rgb(32, 17, 1);
+}
+
+.zasto-nas .box:hover h4, 
+.zasto-nas .box:hover p {
+    color: white;
+}
+
+/* Meni sekcija */
+.meni #meni-filteri{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.meni #meni-filteri li{
+    display: block;
+    padding: 12px;
+    font-size: 13pt;
+    font-weight: 500;
+    
+}
+
+
+.meni .meni-item{
+    margin-top: 50px;
+}
+
+.meni .meni-slika{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    border: 5px solid rgba(255, 255, 255, 0.2)
+}
+
+.meni .meni-sadrzaj{
+    padding-top: 10px;
+    padding-left: 6px;
+    margin-left: 80px;
+}
+
+.meni .meni-sadrzaj span::before{
+    content: "...........................";
+}
+
+.meni .meni-sadrzaj a{
+    color: rgb(32, 17, 1);
+    text-decoration: none;
+    font-size: 15pt;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.meni .meni-sastojci{
+    font-weight: 400;
+    margin-left: 80px;
+    font-style: italic;
+    font-size: 12pt;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+section.meni{
+    background: #eb8a84;
+    padding: 80px 0;
+}
+
+/* Specijaliteti */
+section#specijaliteti{
+    padding: 80px 0;
+}
+
+.nav {
+    flex-direction: column;
+}
+.nav-item{
+    padding: 12pt 15pt;
+    border-right: 3px solid salmon;
+}
+
+.nav-item a{
+    font-size: 15pt;
+    color: salmon;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-item.active {
+    background-color: salmon;
+}
+
+.nav-item.active a {
+    color: rgb(32, 17, 1);
+}
+
+.nav-item:hover a {
+    color: rgb(32, 17, 1);
+}
+
+.spec-sadrzaj h3 {
+    color: salmon;
+    padding-bottom: 3pt;
+    font-weight: 700;
+}
+
+.spec-sadrzaj p {
+    color: rgb(32, 17, 1);
+    font-size: 10pt;
+}
+
+.slika-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spec-slika{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* Galerija */
+.galerija .galerija-item{
+    overflow: hidden;
+    padding: 0;
+    border-right: 3px solid rgb(32, 17, 1);
+    border-bottom: 3px solid rgb(32, 17, 1);
+}
+
+.galerija .galerija-item:hover img{
+    transform: scale(1.1);
+}
+
+.galerija .galerija-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-in-out 0.3s;
+}
+
+/* Kontakt */
+.kontakt{
+    padding: 80px 0;
+    background-color: rgb(179, 91, 81);
+    color: white;
+}
+
+.kontakt .mapa{
+    margin-bottom: 50px;
+}
+
+.kontakt .info{
+    width: 100%;
+    padding-left: 10%;
+}
+
+.kontakt .info i{
+    font-size: 20pt;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    float: left;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(179, 91, 81);
+}
+
+.kontakt .info h4{
+    padding-left: 60px;
+    font-size: 18pt;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.kontakt .info p{
+    padding-left: 60px;
+    margin-bottom: 15pt;
+    font-size: 14pt;
+    color: whitesmoke;
+}
+
+.kontakt .kontakt-forma{
+    width: 100%;
+    padding-right: 10%;
+}
+
+.kontakt .kontakt-forma input{
+    margin-bottom: 12pt;
+    /* border: 2px solid salmon; */
+    border-color: salmon;
+    height: 35pt;
+    color: rgb(179, 91, 81);
+}
+.kontakt .kontakt-forma textarea{
+    border-color: salmon;
+    color: rgb(179, 91, 81);
+    margin-bottom: 12pt;
+
+}
+
+.kontakt .kontakt-forma input:focus, .kontakt .kontakt-forma textarea:focus{
+    box-shadow: 3px 3px 3px salmon ;
+}
+
+.kontakt .kontakt-forma input::-webkit-input-placeholder, .kontakt .kontakt-forma textarea::-webkit-input-placeholder{
+    color: salmon;
+}
+
+.kontakt .kontakt-forma input::-moz-placeholder, .kontakt .kontakt-forma textarea::-moz-placeholder{
+    color: salmon;
+}
+
+.kontakt .kontakt-forma button{
+    background-color: salmon;
+    border: 0;
+    padding: 10px 35px;
+    color: white;
+    border-radius: 40px;
+}
+
+.kontakt .kontakt-forma .button-center{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
