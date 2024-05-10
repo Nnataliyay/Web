@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" href="./kuromi.png">
+        <title> ♡´･ᴗ･`♡ </title>
+        <meta charset="UTF-8" />
+    </head>
+
+    <body>
+
+        <div id="flex-okvir">
+        <div class="header">
+            <h1 class="naslov">Snake ♡´･ᴗ･`♡</h1>
+            <div id="login">
+                <form method="POST">
+                    <input type="text" placeholder="Korisnicko ime" name="login_uid"></input>
+                    <input type="password" placeholder="Lozinka" name="login_pwd"></input>
+                    <input type="submit" value="PRIJAVA"></input>
+                </form>
+            </div>
+        </div>
+
+        <div class="main">
+            <p> Score: <span id = "actual-score">0</span> 
+                Best: <span id = "best-score"> 0</span>
+                FPS: <span id = "count-fps"> 0</span>
+               </p> 
+              <canvas id="myCanvas" width="200" height="200"></canvas>
+              <p id="msg"> Press <em>Space</em> to start </p>
+            
+        </div>
+            
+        <div class="footer">
+            <p>socials</p>
+            <div id="drustvene_mreze_odeljak" class="iskljucena_selekcija">
+                <div class="drustvene_mreze_odeljak_slika">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="fb.png" alt="Facebook">
+                    </a>
+                    <div class="drustvene_mreze_odeljak_slika">
+                        <a href="https://www.instagram.com/nnataliyay/" target="_blank">
+                            <img src="ig.png" alt="Facebook">
+                        </a>
+                    <div class="drustvene_mreze_odeljak_slika">
+                        <a href="https://mail.google.com/" target="_blank">
+                            <img src="email.png" alt="Facebook">
+                        </a>
+                    <div class="drustvene_mreze_odeljak_slika">
+                        <a href="https://twitter.com/_nataliyay" target="_blank">
+                            <img src="tw.png" alt="Facebook">
+                        </a>
+                    </div>
+                </div>
+        </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
+
