@@ -1,3 +1,3 @@
 U ovom repozitorijumu nalaze se neki od projekata koje sam radila. 
-U folderu Aktivnost nalazi se projekat radjen radi ostvarivanja maksimalnih bodova na predmetu Web dizajn u prvoj godini.
-U folderu 01. Web se nalaze neki od primera koje sam radila tokom nastave u System Pro skoli programiranja 2022. godine.
+U folderima iz srednje škole nalaze se projekti radjeni tokom praćenja nastave u System Pro školi programiranja, fokus je bio na JS-u.
+U folderu Fakultet - Web Design može se pronaći projekat koji sam radila u svrhe predmeta slušanog u prvoj godini i u pitanju je igra memorije.
