@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header{
+    background-color: #8d3866;
+    font-size: 20pt;
+    font-weight: 600;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 100px;
+
+}
+
+header #head1{
+    color: white;
+    width: 50%;
+    display: inline-block;
+
+
+}
+
+header #head1 h1{
+    padding: 20px 0 20px 60px;
+    
+}
+
+header #head2{
+    padding: 20px 60px 20px 0;
+    color: white;
+    width: calc(50% - 120px);
+    display: inline-block;
+    text-align: end;
+    position: absolute;
+}
+
+header #head2 img{
+    width: 50px;
+    height: 50px;
+    padding: 0 10px 0 0 ;
+}
+
+header #head2 img:hover{
+    opacity: 0.6;
+
+}
+
+#navbar {
+    background-color: #8d3865da;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+}
+
+#navbar ul{
+    padding: 5px 50px 5px 50px;
+}
+
+#navbar li{
+    display: inline-block;
+    padding: 10px;
+    color: #c7a2b6;
+}
+
+
+
+#navbar a:hover{
+    color: #8d3866;
+    background-color: #c7a2b6;
+}
+
+
+#navbar a{
+    text-decoration: none;
+    color: #c7a2b6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#wrapper{
+    background-color: #c7a2b6;
+    width: 100%;
+    padding: 15px 0 15px 0 ;
+}
+
+#main_content{
+    width: 50%;
+    background-color: #aa6489;
+    margin:auto;
+    border-radius: 5px;
+    padding: 25px 0;
+    
+}
+
+#glavni{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #b4b4b45e;
+    padding: 40px 10px;
+    border-radius: 3px;
+
+}
+
+.kartica{
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.resetbutton{
+    margin-top: 20px;
+    font-size: 18pt;
+    text-decoration: underline;
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+
+#idk{
+    width: 100%;
+    margin: 20px;
+    display: inline-block;
+    color: white;
+}
+
+#hana{
+    width: 30%;
+    display: inline-block;
+}
+
+#hana p{
+    text-align: center;
+    color: #c7a2b6;
+}
+
+#hana img{
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+#info{
+    display: inline-block;
+    width: 55%;
+    top: 0;
+    padding: 30px;
+}
+
+#info h2{
+    text-align: center;
+    font-size: 24pt;
+}
+
+#info p{
+    padding: 60px 10px;
+    font-size: 14pt;
+    margin-bottom: 200px;
+}
+
+#info a{
+    color: #ffffff;
+}
+
+footer{
+    width: 100%;
+    background-color: #8d3866;
+}
+
+#footer{
+    padding: 30px 60px 30px 60px;
+}
+
+.footer_index{
+    text-align: center;
+    color: white;
+    font-size: 16pt;
+}
+
+.footer_icons img{
+    width: 40px;
+    padding: 5px;
+}
+
